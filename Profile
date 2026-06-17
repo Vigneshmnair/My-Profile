@@ -1,1 +1,253 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Official CV Profile</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f4f6f9;
+        color:#333;
+        line-height:1.6;
+    }
+
+    .container{
+        width:80%;
+        max-width:1000px;
+        margin:30px auto;
+        background:#fff;
+        padding:30px;
+        box-shadow:0 0 15px rgba(0,0,0,0.1);
+        border-radius:10px;
+    }
+
+    header{
+        text-align:center;
+        padding-bottom:20px;
+        border-bottom:2px solid #ddd;
+    }
+
+    header img{
+        width:150px;
+        height:150px;
+        border-radius:50%;
+        object-fit:cover;
+        margin-bottom:15px;
+    }
+
+    h1{
+        color:#1f4e79;
+    }
+
+    h2{
+        color:#1f4e79;
+        margin-top:25px;
+        border-bottom:1px solid #ddd;
+        padding-bottom:5px;
+    }
+
+    .section{
+        margin-top:15px;
+    }
+
+    ul{
+        margin-left:20px;
+    }
+
+    .info p{
+        margin:5px 0;
+    }
+
+    table{
+        width:100%;
+        border-collapse:collapse;
+        margin-top:10px;
+    }
+
+    table, th, td{
+        border:1px solid #ccc;
+    }
+
+    th, td{
+        padding:10px;
+        text-align:left;
+    }
+
+    footer{
+        margin-top:30px;
+        text-align:center;
+        font-size:14px;
+        color:#666;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <header>
+        <img src="profile-photo.jpg" alt="Profile Photo">
+        <h1>Vignesh M Nair</h1>
+        <p>Professional Title / Designation</p>
+    </header>
+
+    <!-- Personal Information -->
+    <section class="section">
+        <h2>Personal Information</h2>
+        <div class="info">
+            <p><strong>Date of Birth:</strong> DD/MM/YYYY</p>
+            <p><strong>Gender:</strong> Male/Female</p>
+            <p><strong>Nationality:</strong> Country</p>
+            <p><strong>Marital Status:</strong> Single/Married</p>
+            <p><strong>Address:</strong> Full Address</p>
+            <p><strong>Phone:</strong> +91 XXXXXXXXXX</p>
+            <p><strong>Email:</strong> yourname@email.com</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</p>
+            <p><strong>Website:</strong> www.yourwebsite.com</p>
+        </div>
+    </section>
+
+    <!-- Professional Summary -->
+    <section class="section">
+        <h2>Professional Summary</h2>
+        <p>
+            Write a brief summary about your experience,
+            achievements, career objectives, and professional strengths.
+        </p>
+    </section>
+
+    <!-- Education -->
+    <section class="section">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Grade/CGPA</th>
+            </tr>
+            <tr>
+                <td>Bachelor's Degree</td>
+                <td>University Name</td>
+                <td>2024</td>
+                <td>8.5 CGPA</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Work Experience -->
+    <section class="section">
+        <h2>Work Experience</h2>
+
+        <h3>Job Title</h3>
+        <p><strong>Company Name</strong> | Jan 2022 - Present</p>
+        <ul>
+            <li>Key responsibility and achievement.</li>
+            <li>Project management and leadership.</li>
+            <li>Improved performance by X%.</li>
+        </ul>
+    </section>
+
+    <!-- Skills -->
+    <section class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Java, C++</li>
+            <li>Database Management</li>
+            <li>Project Management</li>
+            <li>Communication Skills</li>
+        </ul>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Certification Name - Organization - Year</li>
+            <li>Certification Name - Organization - Year</li>
+        </ul>
+    </section>
+
+    <!-- Projects -->
+    <section class="section">
+        <h2>Projects</h2>
+
+        <h3>Project Name</h3>
+        <p>
+            Brief description of the project, technologies used,
+            objectives, and outcomes.
+        </p>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Achievement 1</li>
+            <li>Achievement 2</li>
+            <li>Achievement 3</li>
+        </ul>
+    </section>
+
+    <!-- Languages -->
+    <section class="section">
+        <h2>Languages</h2>
+        <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Malayalam</li>
+        </ul>
+    </section>
+
+    <!-- Interests -->
+    <section class="section">
+        <h2>Interests & Hobbies</h2>
+        <ul>
+            <li>Reading</li>
+            <li>Traveling</li>
+            <li>Photography</li>
+        </ul>
+    </section>
+
+    <!-- References -->
+    <section class="section">
+        <h2>References</h2>
+        <p>Available upon request.</p>
+    </section>
+
+    <!-- Declaration -->
+    <section class="section">
+        <h2>Declaration</h2>
+        <p>
+            I hereby declare that the information provided above is
+            true and accurate to the best of my knowledge.
+        </p>
+
+        <br>
+        <p><strong>Place:</strong> __________</p>
+        <p><strong>Date:</strong> __________</p>
+
+        <br><br>
+        <p><strong>Signature</strong></p>
+    </section>
+
+    <footer>
+        © 2026 Your Name | Professional CV Profile
+    </footer>
+
+</div>
+
+</body>
+</html>
