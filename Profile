@@ -97,7 +97,7 @@
 
     <!-- Header -->
     <header>
-        <img src="profile-photo.jpg" alt="Profile Photo">
+        <img src="vikky.jpeg" alt="Profile Photo">
         <h1>Vignesh M Nair</h1>
         <p>Professional Title / Designation</p>
     </header>
